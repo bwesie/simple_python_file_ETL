@@ -4,11 +4,11 @@ import glob
 import os
 import shutil
 
-shutil.rmtree('N:\Department\AuditServices\Data Analytics Team\Related Parties for Debit Card Refunds\Debit Card Refund Reports')
+shutil.rmtree('insertFilePathHere')
 
 # Providing the folder path
-origin = r'N:\CrossBis\InternalAudit\InternalControlMonitoring'
-target = r'N:\Department\AuditServices\Data Analytics Team\Related Parties for Debit Card Refunds\Debit Card Refund Reports'
+origin = r'insertFilePathHere'
+target = r'insertFilePathHere'
 
 # Fetching the list of all the files
 files = os.listdir(origin)
